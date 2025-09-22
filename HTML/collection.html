@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="../Image/Logo Light.png">
+		<title>DiamondCut Motors</title>
+		<link rel="stylesheet" href="../Style/collection.css">
+		<link rel="stylesheet" href="../Style/Header&Footer.css">
+	</head>
+	<body>
+		<!-- CONTAINER -->
+		<div class="container">
+			<!-- HEADER -->
+			<div class="header" data-reveal="down">
+				<div class="logo" data-reveal="left">
+					<a href="../HTML/index.html">
+						<img src="../Image/Logo Dark.png" alt="Logo">
+					</a>
+				</div>
+				<div class="nav" data-reveal="down">
+					<ul>
+						<li data-reveal="left">
+							<a href="../HTML/index.html">HOME</a>
+						</li>
+						<li data-reveal="left">
+							<a class="active" href="../HTML/collection.html">COLLECTION</a>
+						</li>
+						<li data-reveal="right">
+							<a href="../HTML/showroom.html">SHOWROOM</a>
+						</li>
+						<li data-reveal="right">
+							<a href="../HTML/aboutus.html">ABOUT US</a>
+						</li>
+					</ul>
+				</div>
+				<div class="buttons" data-reveal="right">
+					<a href="../HTML/login.html">
+						<button>LOGIN</button>
+					</a>
+				</div>
+				<!-- Burger Menu -->
+				<div class="burger-button" data-reveal="right">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<!-- Dropdown Navigation -->
+				<div class="dropdown-nav hidden">
+					<ul>
+						<li>
+							<a href="../HTML/index.html">HOME</a>
+						</li>
+						<li>
+							<a href="../HTML/collection.html">COLLECTION</a>
+						</li>
+						<li>
+							<a href="../HTML/showroom.html">SHOWROOM</a>
+						</li>
+						<li>
+							<a href="../HTML/aboutus.html">ABOUT US</a>
+						</li>
+						<li>
+							<a href="../HTML/login.html">LOGIN</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- TOP COLLECTION -->
+			<div class="main_content">
+				<div class="content" data-reveal="left">
+					<h1>TOP PREMIER COLLECTION <br>
+						<span>Porsche 911 Turbo</span>
+					</h1>
+					<p>Maximum Driving Dynamic and Exculiveness</p>
+				</div>
+				<div class="car_img" data-reveal="right">
+					<img src="../Image/porsche.png" alt="New Car">
+				</div>
+			</div>
+			<div class="futures" data-reveal="up">
+				<div class="engine">
+					<img src="../Image/engine.png" alt="Engine">
+					<p>625 hp (460 kw) High-Performan Twin Turbo Engine</p>
+				</div>
+				<div class="transmision">
+					<img src="../Image/Transmision.png" alt="Transmision">
+					<p>M xDrive Active M differebtial Auto 7 speed Gear-box</p>
+				</div>
+				<div class="power">
+					<img src="../Image/Turbo.png" alt="Turbo">
+					<p>460 kw/625 hp, <br> 0-100km/h in 3.2 s </p>
+				</div>
+				<div class="brake">
+					<img src="../Image/Brake.png" alt="Brake">
+					<p>4 Wheel Alloy with 20mm Disc Brake</p>
+				</div>
+			</div>
+			<!-- CAROUSEL -->
+			<div class="carousel">
+				<h1 data-reveal="down">OUR PARTNER BRANDS</h1>
+				<div class="slides" data-reveal="up">
+					<img src="../Image/Brand1.jpg" alt="Brand Ferarri">
+					<img src="../Image/Brand2.png" alt="Brand Lamborghini">
+					<img src="../Image/Brand3.png" alt="Brand Porsche">
+					<img src="../Image/Brand4.png" alt="Brand Mclaren">
+					<img src="../Image/Brand5.jpg" alt="Brand Bugatti">
+					<img src="../Image/Brand6.jpg" alt="Brand Koenigsegg">
+					<button class="prev">&#10094</button>
+					<button class="next">&#10095</button>
+				</div>
+				<div class="carousel-indicators" data-reveal="down">
+					<span class="indicator active" onclick="currentSlide(1)"></span>
+					<span class="indicator" onclick="currentSlide(2)"></span>
+					<span class="indicator" onclick="currentSlide(3)"></span>
+					<span class="indicator" onclick="currentSlide(4)"></span>
+					<span class="indicator" onclick="currentSlide(5)"></span>
+					<span class="indicator" onclick="currentSlide(6)"></span>
+				</div>
+			</div>
+			<!-- NEW CAR SALE -->
+			<section class="featured-cars">
+				<h2 data-reveal="up">Our New Cars</h2>
+				<div class="car-gallery" data-reveal="down">
+					<div class="car">
+						<img src="../Image/porsche.png" alt="Porsche 911 Turbo S">
+						<div class="car-details" data-reveal="left">
+							<p class="car-name">Porsche 911 Turbo S</p>
+							<ul class="car-specs">
+								<li>Engine: 3.8L twin-turbo flat-six</li>
+								<li>Horsepower: 640 hp</li>
+								<li>0-60 mph: 2.6 seconds</li>
+							</ul>
+						</div>
+					</div>
+					<div class="car">
+						<img src="../Image/Ferarri.png" alt="Ferrari F8 Tributo">
+						<div class="car-details" data-reveal="up">
+							<p class="car-name">Ferrari F8 Tributo</p>
+							<ul class="car-specs">
+								<li>Engine: 3.9L twin-turbo V8</li>
+								<li>Horsepower: 710 hp</li>
+								<li>0-60 mph: 2.9 seconds</li>
+							</ul>
+						</div>
+					</div>
+					<div class="car">
+						<img src="../Image/lamborghini1.jpg" alt="Lamborghini Aventador" class="low">
+						<div class="car-details" data-reveal="right">
+							<p class="car-name">Lamborghini Aventador</p>
+							<ul class="car-specs">
+								<li>Engine: 6.5L V12</li>
+								<li>Horsepower: 730 hp</li>
+								<li>0-60 mph: 2.9 seconds</li>
+							</ul>
+						</div>
+					</div>
+					<div class="car">
+						<img src="../Image/mclaren.png" alt="McLaren 720S" class="low">
+						<div class="car-details" data-reveal="left">
+							<p class="car-name">McLaren 720S</p>
+							<ul class="car-specs">
+								<li>Engine: 4.0L twin-turbo V8</li>
+								<li>Horsepower: 710 hp</li>
+								<li>0-60 mph: 2.8 seconds</li>
+							</ul>
+						</div>
+					</div>
+					<div class="car">
+						<img src="../Image/Bugatti.png" alt="Bugatti Chiron">
+						<div class="car-details" data-reveal="up">
+							<p class="car-name">Bugatti Chiron</p>
+							<ul class="car-specs">
+								<li>Engine: 8.0L quad-turbo W16</li>
+								<li>Horsepower: 1500 hp</li>
+								<li>0-60 mph: 2.4 seconds</li>
+							</ul>
+						</div>
+					</div>
+					<div class="car">
+						<img src="../Image/koenigsegg.png" alt="Koenigsegg Regera">
+						<div class="car-details" data-reveal="right">
+							<p class="car-name">Koenigsegg Regera</p>
+							<ul class="car-specs">
+								<li>Engine: 5.0L twin-turbo V8</li>
+								<li>Horsepower: 1500 hp</li>
+								<li>0-60 mph: 2.8 seconds</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- USED CAR SALE -->
+			<section class="section featured-car" id="featured-car">
+				<div class="container1">
+					<div class="title-wrapper">
+						<h2 class="h2 section-title" data-reveal="left">Featured Used Cars</h2>
+						<a href="../HTML/login.html" class="featured-car-link" data-reveal="right">
+							<span>View more</span>
+							<img src="../SVG/arrow-forward-outline-svgrepo-com.svg" alt="arrow icon" width="16" height="16">
+						</a>
+					</div>
+					<ul class="featured-car-list" data-reveal="up">
+						<li>
+							<div class="featured-car-card">
+								<figure class="card-banner">
+									<img src="../Image/UsedCar1.jpg" alt="Porsche Taycan" loading="lazy" width="440" height="300" class="w-100">
+								</figure>
+								<div class="card-content">
+									<div class="card-title-wrapper">
+										<h3 class="h3 card-title">
+											<a href="#">Porsche Taycan</a>
+										</h3>
+										<data class="year" value="2023">2023</data>
+									</div>
+									<ul class="card-list">
+										<li class="card-list-item">
+											<img src="../SVG/person-outline-svgrepo-com.svg" alt="people icon" width="16" height="16">
+											<span class="card-item-text">2 People</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/flash-outline-svgrepo-com.svg" alt="flash icon" width="16" height="16">
+											<span class="card-item-text">Electric</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/speedometer-outline-svgrepo-com.svg" alt="speedometer icon" width="16" height="16">
+											<span class="card-item-text">12000 KM</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/hardware-chip-outline-svgrepo-com.svg" alt="chip icon" width="16" height="16">
+											<span class="card-item-text">Very Good</span>
+										</li>
+									</ul>
+									<div class="card-price-wrapper">
+										<p class="card-price">
+											<strong>Rp 2.6 Billion</strong>
+										</p>
+										<button class="btn btn1">Buy Now</button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="featured-car-card">
+								<figure class="card-banner">
+									<img src="../Image/UsedCar2.jpg" alt="Audi R8" loading="lazy" width="440" height="300" class="w-100">
+								</figure>
+								<div class="card-content">
+									<div class="card-title-wrapper">
+										<h3 class="h3 card-title">
+											<a href="#">Audi R8</a>
+										</h3>
+										<data class="year" value="2020">2020</data>
+									</div>
+									<ul class="card-list">
+										<li class="card-list-item">
+											<img src="../SVG/person-outline-svgrepo-com.svg" alt="people icon" width="16" height="16">
+											<span class="card-item-text">2 People</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/flash-outline-svgrepo-com.svg" alt="flash icon" width="16" height="16">
+											<span class="card-item-text">Gasoline</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/speedometer-outline-svgrepo-com.svg" alt="speedometer icon" width="16" height="16">
+											<span class="card-item-text">23000 KM</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/hardware-chip-outline-svgrepo-com.svg" alt="chip icon" width="16" height="16">
+											<span class="card-item-text">Very Good</span>
+										</li>
+									</ul>
+									<div class="card-price-wrapper">
+										<p class="card-price">
+											<strong>Rp 1.750 Billion</strong>
+										</p>
+										<button class="btn btn1">Buy Now</button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="featured-car-card">
+								<figure class="card-banner">
+									<img src="../Image/UsedCar3.jpg" alt="BMW" loading="lazy" width="440" height="300" class="w-100">
+								</figure>
+								<div class="card-content">
+									<div class="card-title-wrapper">
+										<h3 class="h3 card-title">
+											<a href="#">BMW 530i M-Sport</a>
+										</h3>
+										<data class="year" value="2019">2019</data>
+									</div>
+									<ul class="card-list">
+										<li class="card-list-item">
+											<img src="../SVG/person-outline-svgrepo-com.svg" alt="people icon" width="16" height="16">
+											<span class="card-item-text">4 People</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/flash-outline-svgrepo-com.svg" alt="flash icon" width="16" height="16">
+											<span class="card-item-text">Gasoline</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/speedometer-outline-svgrepo-com.svg" alt="speedometer icon" width="16" height="16">
+											<span class="card-item-text">28000 KM</span>
+										</li>
+										<li class="card-list-item">
+											<img src="../SVG/hardware-chip-outline-svgrepo-com.svg" alt="chip icon" width="16" height="16">
+											<span class="card-item-text">Good</span>
+										</li>
+									</ul>
+									<div class="card-price-wrapper">
+										<p class="card-price">
+											<strong>Rp 1.2 Billion</strong>
+										</p>
+										<button class="btn btn1">Buy Now</button>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- FOOTER -->
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-top section" data-reveal="down">
+						<div class="newsletter-card">
+							<div class="card-icon">
+								<img src="../SVG/email-1-svgrepo-com.svg" alt="mail unread icon" aria-hidden="true">
+							</div>
+							<h3 class="h3 card-title">Sign up for DiamondCut Motors news & insights</h3>
+							<form action="#" class="newsletter-form">
+								<label for="email" class="label">Email address</label>
+								<input type="email" name="email" id="email" placeholder="Email address" required class="email-field">
+								<button type="submit" class="btn-footer">Subscribe</button>
+							</form>
+						</div>
+						<div class="footer-list">
+							<p class="h6 has-after">DiamondCut Motors Theme</p>
+							<p class="footer-text">To be the premier luxury car reseller in the global market, providing unparalleled quality, service, and customer satisfaction.</p>
+							<a href="#" class="btn-outline">
+								<span class="span">Get a quote ></span>
+							</a>
+						</div>
+						<ul class="footer-list">
+							<li>
+								<p class="h6 has-after">Company Info</p>
+							</li>
+							<li>
+								<a href="../HTML/index.html" class="footer-link">Home</a>
+							</li>
+							<li>
+								<a href="../HTML/collection.html" class="footer-link">Our Collection</a>
+							</li>
+							<li>
+								<a href="../HTML/showroom.html" class="footer-link">Our Showroom</a>
+							</li>
+							<li>
+								<a href="../HTML/login.html" class="footer-link">Login & Sign Up</a>
+							</li>
+							<li>
+								<a href="../HTML/aboutus.html" class="footer-link">About Us</a>
+							</li>
+						</ul>
+						<ul class="footer-list">
+							<li>
+								<p class="h6 has-after">Quick Contact</p>
+							</li>
+							<li>
+								<address class="footer-text">Indonesia, Tangerang Selatan.</address>
+							</li>
+							<li>
+								<p class="footer-text">If you have any questions or need help, feel free to contact with our team.</p>
+							</li>
+							<li>
+								<a href="tel:+6285645732219" class="contact-link">+62 85645732219</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-bottom">
+						<div>
+							<ul class="footer-bottom-list">
+								<li>
+									<a href="#" class="footer-bottom-link">Where to Find Us</a>
+								</li>
+								<li>
+									<a href="#" class="footer-bottom-link">Terms of Payment</a>
+								</li>
+								<li>
+									<a href="#" class="footer-bottom-link">Stats Element</a>
+								</li>
+							</ul>
+						</div>
+						<img src="../Image/Logo Light.png" width="100" height="63" loading="lazy" alt="DiamondCut Motors">
+						<ul class="social-list">
+							<li>
+								<a href="#" class="social-link">
+									<img src="../SVG/logo-facebook-svgrepo-com.svg" alt="Facebook logo" aria-hidden="true">
+								</a>
+							</li>
+							<li>
+								<a href="#" class="social-link">
+									<img src="../SVG/twitter-svgrepo-com.svg" alt="Twitter logo" aria-hidden="true">
+								</a>
+							</li>
+							<li>
+								<a href="https://youtube.com/@kevinnathanael320?feature=shared" class="social-link">
+									<img src="../SVG/youtube-svgrepo-com.svg" alt="YouTube logo" aria-hidden="true">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/kevin.n_1611?igsh=MXgzZjI5eDR4Z2I5Mw==" class="social-link">
+									<img src="../SVG/instagram-svgrepo-com.svg" alt="Instagram logo" aria-hidden="true">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- JS LINK -->
+		<script src="../Script/script.js"></script>
+	</body>
+</html>

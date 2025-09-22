@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="../Image/Logo Light.png">
+		<title>DiamondCut Motors</title>
+		<link rel="stylesheet" href="../Style/showroom.css">
+		<link rel="stylesheet" href="../Style/Header&Footer.css">
+	</head>
+	<body>
+		<!-- CONTAINER -->
+		<div class="container">
+			<!-- HEADER -->
+			<div class="header" data-reveal="down">
+				<div class="logo" data-reveal="left">
+					<a href="../HTML/index.html">
+						<img src="../Image/Logo Dark.png" alt="Logo">
+					</a>
+				</div>
+				<div class="nav" data-reveal="down">
+					<ul>
+						<li data-reveal="left">
+							<a href="../HTML/index.html">HOME</a>
+						</li>
+						<li data-reveal="left">
+							<a href="../HTML/collection.html">COLLECTION</a>
+						</li>
+						<li data-reveal="right">
+							<a class="active" href="../HTML/showroom.html">SHOWROOM</a>
+						</li>
+						<li data-reveal="right">
+							<a href="../HTML/aboutus.html">ABOUT US</a>
+						</li>
+					</ul>
+				</div>
+				<div class="buttons" data-reveal="right">
+					<a href="../HTML/login.html">
+						<button>LOGIN</button>
+					</a>
+				</div>
+				<!-- Burger Menu -->
+				<div class="burger-button" data-reveal="right">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<!-- Dropdown Navigation -->
+				<div class="dropdown-nav hidden">
+					<ul>
+						<li>
+							<a href="../HTML/index.html">HOME</a>
+						</li>
+						<li>
+							<a href="../HTML/collection.html">COLLECTION</a>
+						</li>
+						<li>
+							<a href="../HTML/showroom.html">SHOWROOM</a>
+						</li>
+						<li>
+							<a href="../HTML/aboutus.html">ABOUT US</a>
+						</li>
+						<li>
+							<a href="../HTML/login.html">LOGIN</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Jumbotron -->
+			<div class="jumbotron jumbotron-fluid" data-reveal="down">
+				<div class="container1" data-reveal="up">
+					<h1 class="display-4">Visit Our Showrooms</h1>
+					<p class="lead">Experience the luxury and elegance of DiamondCut in person.</p>
+					<a href="#" class="btn">Explore Our Spaces</a>
+				</div>
+			</div>
+			<!-- CAROUSEL -->
+			<div class="carousel">
+				<h1 data-reveal="down">OUR PREMIER SHOWROOM</h1>
+				<div class="slides" data-reveal="up">
+					<img src="../Image/Carousel1.jpg" alt="Showroom 1">
+					<img src="../Image/Carousel2.jpg" alt="Showroom 2">
+					<img src="../Image/Carousel3.jpg" alt="Showroom 3">
+					<img src="../Image/Carousel4.jpeg" alt="Showroom 4">
+					<img src="../Image/Carousel5.jpg" alt="Showroom 5">
+					<img src="../Image/Carousel6.jpeg" alt="Showroom 6">
+					<button class="prev">&#10094</button>
+					<button class="next">&#10095</button>
+				</div>
+				<div class="carousel-indicators" data-reveal="down">
+					<span class="indicator active" onclick="currentSlide(1)"></span>
+					<span class="indicator" onclick="currentSlide(2)"></span>
+					<span class="indicator" onclick="currentSlide(3)"></span>
+					<span class="indicator" onclick="currentSlide(4)"></span>
+					<span class="indicator" onclick="currentSlide(5)"></span>
+					<span class="indicator" onclick="currentSlide(6)"></span>
+				</div>
+			</div>
+			<!-- SHOWROOM PREVIEW -->
+			<section class="featured-cars">
+				<h2 data-reveal="down">FEATURED SHOWROOM</h2>
+				<div class="car-gallery" data-reveal="up">
+					<div class="car-wrapper">
+						<div class="car">
+							<img src="../Image/Lobby.jpg" alt="Lobby">
+						</div>
+						<h2>LOBBY</h2>
+					</div>
+					<div class="car-wrapper">
+						<div class="car">
+							<img src="../Image/Main Showroom.jpg" alt="Main Showroom">
+						</div>
+						<h2>MAIN SHOWROOM</h2>
+					</div>
+					<div class="car-wrapper">
+						<div class="car">
+							<img src="../Image/Exclusive Showroom.jpg" alt="Exclusive Showroom">
+						</div>
+						<h2>EXCLUSIVE SHOWROOM</h2>
+					</div>
+					<div class="car-wrapper">
+						<div class="car">
+							<img src="../Image/Used Showroom.jpg" alt="Used Car Showroom">
+						</div>
+						<h2>USED CAR SHOWROOM</h2>
+					</div>
+				</div>
+			</section>
+			<!-- FOOTER -->
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-top section" data-reveal="down">
+						<div class="newsletter-card">
+							<div class="card-icon">
+								<img src="../SVG/email-1-svgrepo-com.svg" alt="mail unread icon" aria-hidden="true">
+							</div>
+							<h3 class="h3 card-title">Sign up for DiamondCut Motors news & insights</h3>
+							<form action="#" class="newsletter-form">
+								<label for="email" class="label">Email address</label>
+								<input type="email" name="email" id="email" placeholder="Email address" required class="email-field">
+								<button type="submit" class="btn-footer">Subscribe</button>
+							</form>
+						</div>
+						<div class="footer-list">
+							<p class="h6 has-after">DiamondCut Motors Theme</p>
+							<p class="footer-text">To be the premier luxury car reseller in the global market, providing unparalleled quality, service, and customer satisfaction.</p>
+							<a href="#" class="btn-outline">
+								<span class="span">Get a quote ></span>
+							</a>
+						</div>
+						<ul class="footer-list">
+							<li>
+								<p class="h6 has-after">Company Info</p>
+							</li>
+							<li>
+								<a href="../HTML/index.html" class="footer-link">Home</a>
+							</li>
+							<li>
+								<a href="../HTML/collection.html" class="footer-link">Our Collection</a>
+							</li>
+							<li>
+								<a href="../HTML/showroom.html" class="footer-link">Our Showroom</a>
+							</li>
+							<li>
+								<a href="../HTML/login.html" class="footer-link">Login & Sign Up</a>
+							</li>
+							<li>
+								<a href="../HTML/aboutus.html" class="footer-link">About Us</a>
+							</li>
+						</ul>
+						<ul class="footer-list">
+							<li>
+								<p class="h6 has-after">Quick Contact</p>
+							</li>
+							<li>
+								<address class="footer-text">Indonesia, Tangerang Selatan.</address>
+							</li>
+							<li>
+								<p class="footer-text">If you have any questions or need help, feel free to contact with our team.</p>
+							</li>
+							<li>
+								<a href="tel:+6285645732219" class="contact-link">+62 85645732219</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-bottom">
+						<div>
+							<ul class="footer-bottom-list">
+								<li>
+									<a href="#" class="footer-bottom-link">Where to Find Us</a>
+								</li>
+								<li>
+									<a href="#" class="footer-bottom-link">Terms of Payment</a>
+								</li>
+								<li>
+									<a href="#" class="footer-bottom-link">Stats Element</a>
+								</li>
+							</ul>
+						</div>
+						<img src="../Image/Logo Light.png" width="100" height="63" loading="lazy" alt="DiamondCut Motors">
+						<ul class="social-list">
+							<li>
+								<a href="#" class="social-link">
+									<img src="../SVG/logo-facebook-svgrepo-com.svg" alt="Facebook logo" aria-hidden="true">
+								</a>
+							</li>
+							<li>
+								<a href="#" class="social-link">
+									<img src="../SVG/twitter-svgrepo-com.svg" alt="Twitter logo" aria-hidden="true">
+								</a>
+							</li>
+							<li>
+								<a href="https://youtube.com/@kevinnathanael320?feature=shared" class="social-link">
+									<img src="../SVG/youtube-svgrepo-com.svg" alt="YouTube logo" aria-hidden="true">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/kevin.n_1611?igsh=MXgzZjI5eDR4Z2I5Mw==" class="social-link">
+									<img src="../SVG/instagram-svgrepo-com.svg" alt="Instagram logo" aria-hidden="true">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- JS LINK -->
+		<script src="../Script/script.js"></script>
+	</body>
+</html>
